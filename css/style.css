@@ -25,8 +25,8 @@
   flex-direction: row;
   background-color: yellow;
   padding:20px 5px;
-  align-items:space-between ;
-  width: 100%;
+  justify-content:space-between;
+  
 
 }
 
@@ -39,10 +39,12 @@
 
 }
 
-.up-header-info{
-
-
+.up-header-info > span{
+ flex-direction: row;
 }
+
+
+
 
 .up-header-button{
 align-items: flex-end;
