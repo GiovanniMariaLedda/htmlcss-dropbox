@@ -15,6 +15,10 @@
   max-width: 100%;
 }
 
+ul{
+  list-style-type: none;
+}
+
 /* # BODY */
 
 
@@ -26,7 +30,6 @@
   background-color: yellow;
   padding:20px 5px;
   justify-content:space-between;
-  
 
 }
 
@@ -35,15 +38,24 @@
   
 }
 
-.up-header-logo{
+header ul li {
+  display: inline;
 
 }
 
-.up-header-info > span{
- flex-direction: row;
+.up-header-info{
+width: 100%;
+padding: 0px 10px;
+ 
 }
 
+.span-left{
+text-align: left;
+}
 
+.span-right{
+text-align: right;
+}
 
 
 .up-header-button{
