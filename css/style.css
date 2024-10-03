@@ -60,17 +60,27 @@ ul{
 
 /* LOWER HEADER */
 
-.lw-header-container{
-  height: 800px;
-  width: 500px;
+.hero-container{
+  display: flex;
+  justify-content:center;
+
+  height:500px;
+  width: 100%;
+  /* debug */
+  background-color: beige ;
 }
 
-.lw-header-title{
-  display: flex;
-  flex-direction: column ;
-  justify-content: ;
+.hero-title{
+padding: 40px 0px;
+}
 
+.hero-description{
 
+}
+
+.hero-img img{
+  height: 500px;
+  width: 650px;
 }
 /* # MAIN */
 
