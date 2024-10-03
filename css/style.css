@@ -24,6 +24,9 @@ ul{
 
 
 /* # HEADER */
+
+
+/* # UPPER HEADER */
 .upper-header{
   display: flex;
   flex-direction: row;
@@ -38,34 +41,29 @@ ul{
   
 }
 
-header ul li {
+.upper-header ul li {
   display: inline;
 
 }
 
-.up-header-info{
-width: 100%;
-padding: 0px 10px;
- 
+/* # UP HEADER LOGO */
+
+.up-header-logo{
+
 }
 
-.span-left{
-text-align: left;
+/* UP HEADER LOGIN*/
+
+.up-header-login{
+
 }
 
-.span-right{
-text-align: right;
+/* LOWER HEADER */
+
+.lw-header-container{
+  height: 800px;
+  width: 500px;
 }
-
-
-.up-header-button{
-align-items: flex-end;
-}
-
-/* # UPPER HEADER */
-
-
-
 
 /* # MAIN */
 
